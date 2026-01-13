@@ -2,7 +2,7 @@ const fs = require('fs')
 const path = require('path')
 const { execSync } = require('child_process')
 
-const getRepoName = () => {
+const basePath = '/'
   try {
     return execSync('git remote get-url origin', { encoding: 'utf8' }).split('/').pop().replace('.git', '').trim()
   } catch {
