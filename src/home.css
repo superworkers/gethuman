@@ -1,0 +1,103 @@
+#hero {
+  padding: 5rem var(--space-clamp) 6rem;
+}
+
+#hero .layer-inset {
+  text-align: center;
+}
+
+#hero-title {
+  font:
+    500 clamp(3rem, 10vw, 6rem) / 1 'DM Serif Text',
+    serif;
+  letter-spacing: -0.02em;
+}
+#hero-title em {
+  /* color: #d86; */
+}
+
+#site-actions {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+}
+
+#site-footer .layer-inset {
+  align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  text-align: center;
+}
+
+#site-header .layer-inset {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
+#site-nav {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.hero-copy {
+  color: var(--color-half);
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.hero-link {
+  color: var(--color-darkest);
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  gap: 0.75rem;
+  letter-spacing: -0.03em;
+}
+
+.logo-mark {
+  display: block;
+  fill: var(--color-darkest);
+  height: 1.5rem;
+  width: auto;
+}
+
+.logo-type em {
+  font:
+    italic 400 100% 'DM Serif Text',
+    serif;
+}
+
+.nav-link {
+  color: var(--color-half);
+}
+
+@media (max-width: 720px) {
+  #site-actions {
+    justify-content: center;
+    width: 100%;
+  }
+
+  #site-header .layer-inset {
+    justify-content: center;
+  }
+}

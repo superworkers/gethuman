@@ -1,8 +1,14 @@
 {
-  "index": {
+  "home": {
     "description": "Description of this site",
     "og-image": "/favicon.svg",
     "og-url": "https://mattborn.com",
     "title": "Nothing"
+  },
+  "team": {
+    "description": "Meet the team behind Human AI.",
+    "og-image": "/favicon.svg",
+    "og-url": "https://gethuman.net/team/",
+    "title": "Team"
   }
 }

@@ -1,0 +1,20 @@
+:root {
+  --color-darkest: rgba(255, 255, 255, 0.9);
+  --color-darker: rgba(255, 255, 255, 0.7);
+  --color-half: rgba(255, 255, 255, 0.5);
+  --color-light: rgba(255, 255, 255, 0.1);
+  --color-lighter: rgba(255, 255, 255, 0.05);
+  --color-lightest: rgb(0, 0, 17);
+  --page-max: 68rem;
+  --space-clamp: clamp(1.5rem, 4vw, 3rem);
+}
+
+body {
+  background: var(--color-lightest);
+  color: var(--color-darkest);
+}
+
+.layer-inset {
+  margin: 0 auto;
+  max-width: var(--page-max);
+}

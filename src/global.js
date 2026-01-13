@@ -19,4 +19,4 @@ const scrollConfig = {
   interval: 100,
   origin: 'bottom',
 }
-ScrollReveal().reveal('h1, h2, h3, p, a, button, img, video', scrollConfig)
+// ScrollReveal().reveal('h1, h2, h3, p, a, button, img, video', scrollConfig)
